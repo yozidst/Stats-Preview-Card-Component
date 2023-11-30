@@ -69,7 +69,6 @@ body {
     padding-bottom: 15px;
 }
 
-
 ul > li {
     list-style: none;
 }
@@ -81,8 +80,8 @@ span {
 .stats {
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    padding-right: 8rem;
+    justify-content: space-between;
+    margin-right: 50em;
     padding-top: 1.5rem;
 }
 
@@ -100,6 +99,11 @@ h2 {
     font-size: 1rem;
     font-weight: 400;
     color: var(--color-neutral-slight-transparent-white-stats);
+}
+
+h1, h2 {
+    padding-right: 5px;
+    margin-left: 40px;
 }
 
 .contend > .card-b {
